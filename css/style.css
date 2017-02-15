@@ -1,0 +1,158 @@
+body {
+	font-family: "Arial";
+	font-size: 16px;
+	margin: 0;
+}
+* {
+	box-sizing: border-box;
+}
+.container {
+	width: 948px;
+	height: auto;
+	min-width: 948px;
+	margin: 0 auto;
+	position: relative;
+}
+
+/*Header start*/
+.black {
+	height: 10px;
+	width: 100%;
+	background-color: #1d1e1b;
+}
+.gray {
+	height: 8px;
+	width: 100%;
+	background-color: #dcdddb;
+}
+
+.header {
+	height: 150px;
+}
+.header .logo {
+	float: left;
+	margin-top: 45px;
+	margin-left: 37px;
+}
+.header .menu {
+	float: left;
+	margin-top: 59px;
+	margin-left: 85px;
+}
+.header .menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.header .menu ul li {
+	display: inline-block;
+	padding: 0 14px;
+}
+.header .menu ul li a {
+	font-size: 16px;
+	color: #3f3f3f;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.header .menu ul li a.active, .header .menu ul li a:hover {
+	color: #2c789c;
+}
+
+.header .faq {
+	position: absolute;
+	right: 8px;
+	top: -19px;
+}
+/*Header end*/
+
+/*People start*/
+.people {
+	height: 410px;
+}
+.people .left {
+	width: 412px;
+	height: 310px;
+	float: left;
+	background-image: url('../img/text.png');
+	background-position: bottom;
+	margin-left: 55px;
+	margin-top: 80px;
+}
+.people .left .text {
+	text-align: right;
+	margin-top: 150px;
+	display: inline-block;
+}
+.people .left .text h5 {
+	color: #1d1e1b;
+	font-size: 22.67px;
+	margin: 0;
+	text-transform: uppercase;
+}
+.people .left .text h6 {
+	color: #2c789c;
+	font-size: 16px;
+	margin: 0;
+	font-weight: normal;
+	margin-top: 4px;
+}
+.people .right {
+	float: right;
+	margin-right: 22px;
+	margin-top: 8px;
+}
+/*People end*/
+
+
+/*Blocks start*/
+.blocks {
+
+}
+.blocks .block {
+	height: 147px;
+	float: left;
+	position: relative;
+}
+.blocks .block h5 {
+	font-size: 18.67px;
+	color: #fff;
+	margin: 0;
+	font-weight: normal;
+}
+.blocks .block p {
+	color: #fff;
+	line-height: 16px;
+	margin: 0;
+	margin-top: 12px;
+}
+.blocks .block a {
+	display: inline-block;
+	color: #7e7e7e;
+	background-color: #fff;
+	border-radius: 9px;
+	padding: 5px 11px;
+	text-decoration: none;
+	margin-top: 10px;
+}
+.blocks .block img {
+	position: absolute;
+	top: 50px;
+	left: 0;
+}
+.blocks .blue {
+	width: 311px;
+	background-color: #2c789c;
+	padding: 18px 30px 13px 18px;
+	background-image: url(../img/blue.png);
+	background-repeat: no-repeat;
+	background-position: top 8px right 9px;
+}
+.blocks .orange {
+	width: 323px;
+	background-color: #e5b00d;
+}
+.blocks .green {
+	width: 312px;
+	background-color: #97ba15;
+}
+/*Blocks end*/
